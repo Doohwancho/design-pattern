@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
     <wb-module deploy-name="design_pattern">
+                
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/" source-path="/Creational"/>
+        <wb-resource deploy-path="/" source-path="/Behavioral"/>
+        <wb-resource deploy-path="/" source-path="/Structural"/>
+            
     </wb-module>
+    
 </project-modules>
