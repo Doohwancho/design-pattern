@@ -1,5 +1,5 @@
 package builder.student;
 
-public interface Buildable {
+public interface Buildable<T> {
     T build();
 }

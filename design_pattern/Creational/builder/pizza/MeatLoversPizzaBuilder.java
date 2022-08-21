@@ -1,4 +1,4 @@
-package builder;
+package builder.pizza;
 
 public class MeatLoversPizzaBuilder extends PizzaBuilder {
 	public MeatLoversPizzaBuilder() {
