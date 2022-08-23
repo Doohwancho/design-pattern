@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="Behavioral"/>
 	<classpathentry kind="src" path="Structural"/>
 	<classpathentry kind="src" path="Other"/>
+	<classpathentry kind="src" path="J2EE"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
