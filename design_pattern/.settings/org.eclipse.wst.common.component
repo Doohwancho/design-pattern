@@ -6,6 +6,7 @@
         <wb-resource deploy-path="/" source-path="/Creational"/>
         <wb-resource deploy-path="/" source-path="/Behavioral"/>
         <wb-resource deploy-path="/" source-path="/Structural"/>
+        <wb-resource deploy-path="/" source-path="/Other"/>
             
     </wb-module>
     
