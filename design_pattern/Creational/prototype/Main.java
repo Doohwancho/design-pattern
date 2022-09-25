@@ -14,7 +14,7 @@ public class Main {
         
         System.out.println(copy.use(TEST).equals("*TEST*")); //true
         System.out.println(copy.getClass().toString().equals(starBox.getClass().toString())); //true - 기존 객체 이름 == 기존 객체에서 파생된 새 객체 이름 
-        System.out.println(copy.hashCode() == starBox.hashCode()); //false - 기존 객체 hash != 기존 객체에서 파생된 새 객체 hash. 왜? deep copy from 'extends Cloneable'
+        System.out.println(copy.hashCode() == starBox.hashCode()); //false - 기존 객체 hash != 기존 객체에서 파생된 새 객체 hash. 왜? deep copy from 'extends Cloneable' 하려면, deep copy를 개발자가 직접 작성해주어야 함. 
         System.out.println(copy.maps.hashCode() == starBox.maps.hashCode()); //true. but why????  
 	}
 }
